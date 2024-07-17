@@ -1,0 +1,3 @@
+- for __LIB_NAME__
+    - add _modules/__LIB_NAME__/lib/[config]_ to your include directories
+    - link the library _lib__LIB_NAME__.a_ or ___LIB_NAME__.lib_

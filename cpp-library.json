@@ -1,0 +1,19 @@
+{
+    "project": "ecs",
+    "author": "florian burger (git@fburgerdev)",
+    "namespace": "ECS",
+
+    "libraries": [
+        { "name": "vecmath" },
+        { "name": "beaver" }
+    ],
+    "defines": [
+        "BEAVER_LOGGING"
+    ],
+    "tests": [
+        {
+            "name": "test",
+            "files": [ "test.cpp" ]
+        }
+    ]
+}

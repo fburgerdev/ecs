@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="matrix">
+      <UniqueIdentifier>{1A293E0D-06CB-68E3-EF85-7C37DBC6EF33}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\3d.hpp" />
+    <ClInclude Include="..\src\arithmetic.hpp" />
+    <ClInclude Include="..\src\common.hpp" />
+    <ClInclude Include="..\src\constants.hpp" />
+    <ClInclude Include="..\src\curves.hpp" />
+    <ClInclude Include="..\src\logging.hpp" />
+    <ClInclude Include="..\src\matrix.hpp" />
+    <ClInclude Include="..\src\matrix\alias.hpp">
+      <Filter>matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\matrix\construct.hpp">
+      <Filter>matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\matrix\norm.hpp">
+      <Filter>matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\matrix\operator.hpp">
+      <Filter>matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\matrix\ostream.hpp">
+      <Filter>matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\matrix\struct.hpp">
+      <Filter>matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\vecmath.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\precompile.cpp" />
+  </ItemGroup>
+</Project>

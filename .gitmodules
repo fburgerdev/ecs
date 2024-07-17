@@ -1,0 +1,10 @@
+[submodule "cpp-library"]
+	path = cpp-library
+	url = https://github.com/fburgerdev/cpp-library.git
+	branch = dev
+[submodule "modules/vecmath"]
+	path = modules/vecmath
+	url = https://github.com/fburgerdev/vecmath.git
+[submodule "modules/beaver"]
+	path = modules/beaver
+	url = https://github.com/fburgerdev/beaver.git

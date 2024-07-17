@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="simple_memory">
+      <UniqueIdentifier>{E76A8FA6-532B-0BDD-1C66-545A88E54FB9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\common.hpp" />
+    <ClInclude Include="..\src\component.hpp" />
+    <ClInclude Include="..\src\ecs.hpp" />
+    <ClInclude Include="..\src\entity.hpp" />
+    <ClInclude Include="..\src\logging.hpp" />
+    <ClInclude Include="..\src\scene.hpp" />
+    <ClInclude Include="..\src\scene_memory.hpp" />
+    <ClInclude Include="..\src\script.hpp" />
+    <ClInclude Include="..\src\simple_memory\base_map.hpp">
+      <Filter>simple_memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\simple_memory\derived_map.hpp">
+      <Filter>simple_memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\simple_memory\scene_memory.hpp">
+      <Filter>simple_memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\simple_memory\view.hpp">
+      <Filter>simple_memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\transform.hpp" />
+    <ClInclude Include="..\src\uuid.hpp" />
+    <ClInclude Include="..\src\view.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\common.cpp" />
+    <ClCompile Include="..\src\uuid.cpp" />
+  </ItemGroup>
+</Project>
